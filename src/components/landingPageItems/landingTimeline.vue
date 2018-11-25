@@ -4,7 +4,7 @@
     <Timeline
       :timeline-items="timelineItems"
       :message-when-no-items="messageWhenNoItems"
-      />
+      class="left-space"/>
   </div>
 </template>
 
