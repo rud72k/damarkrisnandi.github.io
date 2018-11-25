@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-6 is-offset-6" style="margin-top: 70px">
+  <div class="container" style="margin-top: 70px">
     <h1 class="title left-space" style="text-align: center">Important Dates</h1>
     <Timeline
       :timeline-items="timelineItems"
