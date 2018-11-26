@@ -1,18 +1,17 @@
 <template>
     <div class="container" style="margin-top: 70px">
-        <h1 class="title" style="text-align: center">Speakers</h1>
-        <h2 class="subtitle" style="text-align: center; margin-top: 40px;">Keynote Speaker</h2>
+        <h1 class="title" style="text-align: center"> Keynote Speakers</h1>
         
         <div class="centered container">
             <kspeaker-detail kspeakerPhoto="https://bulma.io/images/placeholders/128x128.png" 
                                 kspeakerName="Prof. Basuki Widodo" 
                                 University="Institut Teknologi Sepuluh November"
                                 From="Indonesia"
-                                class="centered"/>
+                                class="centered left-padding"/>
         </div>
 
-        <h2 class="subtitle" style="text-align: center; margin-top: 40px;">Plenary Speakers</h2>
-        <div class="columns left-space">
+        <h1 class="title" style="text-align: center; margin-top: 40px;">Plenary Speakers</h1>
+        <div class="columns left-padding">
             <div class="column" v-for="(speaker,index) in speakers1" :key="index">
                 <speaker-detail :speakerPhoto="speaker.photo" 
                                 :speakerName="speaker.name" 
@@ -21,7 +20,7 @@
             </div>
         </div>
 
-        <div class="columns left-space">
+        <div class="columns left-padding">
             <div class="column" v-for="(speaker,index) in speakers2" :key="index">
                 <speaker-detail :speakerPhoto="speaker.photo" 
                                 :speakerName="speaker.name" 
@@ -30,7 +29,7 @@
             </div>
         </div>
 
-        <div class="columns left-space">
+        <div class="columns left-padding">
             <div class="column" v-for="(speaker,index) in speakers3" :key="index">
                 <speaker-detail :speakerPhoto="speaker.photo" 
                                 :speakerName="speaker.name" 
@@ -39,7 +38,7 @@
             </div>
         </div>
 
-        <div class="columns left-space">
+        <div class="columns left-padding">
             <div class="column" v-for="(speaker,index) in speakers4" :key="index">
                 <speaker-detail :speakerPhoto="speaker.photo" 
                                 :speakerName="speaker.name" 
@@ -48,7 +47,7 @@
             </div>
         </div>
 
-        <div class="columns left-space">
+        <div class="columns left-padding">
             <div class="column" v-for="(speaker,index) in speakers5" :key="index">
                 <speaker-detail :speakerPhoto="speaker.photo" 
                                 :speakerName="speaker.name" 
@@ -186,5 +185,8 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.left-padding {
+    padding-left: 20px;
 }
 </style>
