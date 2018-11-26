@@ -3,7 +3,7 @@
         <section class="hero is-medium is-warning" style="margin-top: 70px">
         <div class="hero-body text">
             <div class="container">
-                <p class="buttons centered ">
+                <p class="buttons centered">
                     <a href="" class="button is-large is-outlined is-dark">Sign Up</a>
                 </p>
             </div>
@@ -24,5 +24,6 @@ export default {
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 </style>
