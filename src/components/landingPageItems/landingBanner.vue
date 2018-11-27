@@ -49,7 +49,7 @@ export default {
                 this.$dialog.alert({
                     title: 'About SEAMS',
                     message: 'Lorem ipsum dolor sit amet',
-                    confirmText: 'I Understand',
+                    confirmText: 'OK',
                     type: 'is-success',
                     onConfirm: () => this.$toast.open('Thank you! :)',)
                 })

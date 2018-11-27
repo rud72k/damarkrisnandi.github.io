@@ -16,13 +16,8 @@
                             <br>
                             Yogyakarta - Indonesia
                         </p>
-                        <hr>
                         <p class="heading">Phone: (+62 274) 552243</P>
-
-                        <hr>
-
                         <p class="heading">Fax: (+62 274) 555131</p>
-                        <hr>
                         <p class="heading">Email: secretariat@seams-ugm.id</p>
                     </div>
                     <div class="column"></div>
