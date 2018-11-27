@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-medium is-orange" style="margin-top: 70px">
+        <section class="hero is-medium is-bground" style="margin-top: 70px">
         <div class="hero-body text">
             <p h2 class="subtitle tagline is-10 is-offset-3" style="text-align: center; color: white;">Lorem ipsum dolor sit amet</p>
             <div class="container">
@@ -21,8 +21,8 @@ export default {
 </script>
 
 <style>
-    .is-orange {
-        background-color: rgb(241, 84, 22);
+    .is-bground {
+        background-color: #cb6f2d;
         color: white;
     }
 </style>
