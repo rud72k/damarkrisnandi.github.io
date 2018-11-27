@@ -35,17 +35,20 @@ export default {
 }
 
 .seams-logo {
-  width: 280px;
+  width: 800px;
   display: flex;
   margin: auto;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 899px){
     .seams-logo {
         width: 400px;
     }
 }
 
-
-
+@media screen and (max-width: 767px){
+    .seams-logo {
+        width: 280px;
+    }
+}
 </style>
