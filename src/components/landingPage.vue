@@ -46,7 +46,7 @@ export default {
     }
 }
 
-@media screen and (min-width: 900){
+@media screen and (min-width: 900px){
     .seams-logo {
         width: 800px;
     }
