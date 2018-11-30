@@ -62,4 +62,9 @@ export default {
   display: block;
   margin: auto;
 }
+@media screen and (max-width: 500px) {
+  .left-space {
+    margin-left: -10px;
+  }
+}
 </style>
